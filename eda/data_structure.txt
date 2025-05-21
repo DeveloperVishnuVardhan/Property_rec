@@ -1,0 +1,334 @@
+================================================================================
+Exploring JSON file: appraisals_dataset.json
+================================================================================
+
+Number of appraisals: 88
+<class 'list'>
+Keys in the first appraisal: dict_keys(['orderID', 'subject', 'comps', 'properties'])
+************************************************
+<class 'dict'>
+Keys in the subject of the first appraisal: ['address', 'subject_city_province_zip', 'effective_date', 
+'municipality_district', 'site_dimensions', 'lot_size_sf', 'units_sq_ft', 'year_built', 'structure_type',
+'roofing', 'effective_age', 'style', 'construction', 'remaining_economic_life', 'windows', 'basement',
+'exterior_finish', 'basement_area', 'foundation_walls', 'flooring', 'plumbing_lines', 'heating',
+'fuel_type', 'water_heater', 'cooling', 'room_count', 'num_beds', 'room_total', 'main_lvl_area',
+'second_lvl_area', 'third_lvl_area', 'gla', 'subject_age', 'num_baths', 'condition']
+************************************************
+<class 'list'>
+Keys in the comps of the first appraisal: ['distance_to_subject', 'prop_type', 'stories', 'address', 
+'city_province', 'sale_date', 'sale_price', 'dom', 'location_similarity', 'lot_size', 'age', 'condition',
+'gla', 'room_count', 'bed_count', 'bath_count', 'basement_finish', 'parking', 'neighborhood']
+************************************************
+<class 'list'>
+Keys in the properties of the first appraisal: ['id', 'address', 'bedrooms', 'gla', 'city', 'province', 
+'postal_code', 'property_sub_type', 'structure_type', 'style', 'levels', 'room_count', 'full_baths',
+'half_baths', 'main_level_finished_area', 'upper_lvl_fin_area', 'bg_fin_area', 'lot_size_sf', 'year_built',
+ 'roof', 'basement', 'cooling', 'heating', 'close_price', 'close_date', 'public_remarks', 'latitude', 'longitude']
+
+
+Root level:
+└── Root (Dictionary)
+    Number of keys: 1
+    Keys:
+        appraisals
+    Structure of each key:
+│   │   └── appraisals (List)
+│   │       Length: 88
+│   │       First item structure:
+│   │   │   │   └── First Item (Dictionary)
+│   │   │   │       Number of keys: 4
+│   │   │   │       Keys:
+                        orderID, subject, comps, properties
+│   │   │   │       Structure of each key:
+│   │   │   │   │   │   └── orderID
+│   │   │   │   │   │       Type: str
+│   │   │   │   │   │       Value: 4762597
+│   │   │   │   │   │   └── subject (Dictionary)
+│   │   │   │   │   │       Number of keys: 35
+│   │   │   │   │   │       Keys:
+                                address, subject_city_province_zip,
+                                effective_date, municipality_district,
+                                site_dimensions, lot_size_sf, units_sq_ft,
+                                year_built, structure_type, roofing,
+                                effective_age, style, construction,
+                                remaining_economic_life, windows, basement,
+                                exterior_finish, basement_area,
+                                foundation_walls, flooring, plumbing_lines,
+                                heating, fuel_type, water_heater, cooling,
+                                room_count, num_beds, room_total, main_lvl_area,
+                                second_lvl_area, third_lvl_area, gla,
+                                subject_age, num_baths, condition
+│   │   │   │   │   │       Structure of each key:
+│   │   │   │   │   │   │   │   └── address
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: 142-950 Oakview Ave Kingston ON K7M 6W8
+│   │   │   │   │   │   │   │   └── subject_city_province_zip
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: "Twin Oak Meadows"
+│   │   │   │   │   │   │   │   └── effective_date
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: Apr/11/2025
+│   │   │   │   │   │   │   │   └── municipality_district
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: Kingston
+│   │   │   │   │   │   │   │   └── site_dimensions
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: Condo Common Property
+│   │   │   │   │   │   │   │   └── lot_size_sf
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: n/a
+│   │   │   │   │   │   │   │   └── units_sq_ft
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: SqFt
+│   │   │   │   │   │   │   │   └── year_built
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: 1976
+│   │   │   │   │   │   │   │   └── structure_type
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: Townhouse
+│   │   │   │   │   │   │   │   └── roofing
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: Asphalt Shingle
+│   │   │   │   │   │   │   │   └── effective_age
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: 25
+│   │   │   │   │   │   │   │   └── style
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: 2 Storey
+│   │   │   │   │   │   │   │   └── construction
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: Wood Frame
+│   │   │   │   │   │   │   │   └── remaining_economic_life
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: 50
+│   │   │   │   │   │   │   │   └── windows
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: Vinyl
+│   │   │   │   │   │   │   │   └── basement
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: Full/Finished
+│   │   │   │   │   │   │   │   └── exterior_finish
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: Brick Veneer, Vinyl Siding
+│   │   │   │   │   │   │   │   └── basement_area
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: 522
+│   │   │   │   │   │   │   │   └── foundation_walls
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: Concrete
+│   │   │   │   │   │   │   │   └── flooring
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: Hardwood, carpet, laminate, ceramic
+│   │   │   │   │   │   │   │   └── plumbing_lines
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: Copper, PEX, ABS
+│   │   │   │   │   │   │   │   └── heating
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: Forced Air
+│   │   │   │   │   │   │   │   └── fuel_type
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: Natural Gas
+│   │   │   │   │   │   │   │   └── water_heater
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: 40 Gallon - Gas
+│   │   │   │   │   │   │   │   └── cooling
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: Central Air
+│   │   │   │   │   │   │   │   └── room_count
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: 6
+│   │   │   │   │   │   │   │   └── num_beds
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: 3
+│   │   │   │   │   │   │   │   └── room_total
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: 6
+│   │   │   │   │   │   │   │   └── main_lvl_area
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: 522
+│   │   │   │   │   │   │   │   └── second_lvl_area
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: 522
+│   │   │   │   │   │   │   │   └── third_lvl_area
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: 
+│   │   │   │   │   │   │   │   └── gla
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: 1044
+│   │   │   │   │   │   │   │   └── subject_age
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: 49
+│   │   │   │   │   │   │   │   └── num_baths
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: 1:1
+│   │   │   │   │   │   │   │   └── condition
+│   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │       Value: Average
+│   │   │   │   │   │   └── comps (List)
+│   │   │   │   │   │       Length: 3
+│   │   │   │   │   │       First item structure:
+│   │   │   │   │   │   │   │   └── First Item (Dictionary)
+│   │   │   │   │   │   │   │       Number of keys: 19
+│   │   │   │   │   │   │   │       Keys:
+                                        distance_to_subject, prop_type, stories,
+                                        address, city_province, sale_date,
+                                        sale_price, dom, location_similarity,
+                                        lot_size, age, condition, gla,
+                                        room_count, bed_count, bath_count,
+                                        basement_finish, parking, neighborhood
+│   │   │   │   │   │   │   │       Structure of each key:
+│   │   │   │   │   │   │   │   │   │   └── distance_to_subject
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: 0.15 KM
+│   │   │   │   │   │   │   │   │   │   └── prop_type
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: Townhouse
+│   │   │   │   │   │   │   │   │   │   └── stories
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: 2 Storey
+│   │   │   │   │   │   │   │   │   │   └── address
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: 930 Amberdale Cres
+│   │   │   │   │   │   │   │   │   │   └── city_province
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: Kingston ON K7M 6V1
+│   │   │   │   │   │   │   │   │   │   └── sale_date
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: Oct/25/2024
+│   │   │   │   │   │   │   │   │   │   └── sale_price
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: 378,900
+│   │   │   │   │   │   │   │   │   │   └── dom
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: 38
+│   │   │   │   │   │   │   │   │   │   └── location_similarity
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: Similar
+│   │   │   │   │   │   │   │   │   │   └── lot_size
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: N/A Condominium
+│   │   │   │   │   │   │   │   │   │   └── age
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: 49
+│   │   │   │   │   │   │   │   │   │   └── condition
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: Superior
+│   │   │   │   │   │   │   │   │   │   └── gla
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: 1044 SqFt
+│   │   │   │   │   │   │   │   │   │   └── room_count
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: 6
+│   │   │   │   │   │   │   │   │   │   └── bed_count
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: 3
+│   │   │   │   │   │   │   │   │   │   └── bath_count
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: 2:0
+│   │   │   │   │   │   │   │   │   │   └── basement_finish
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: Full/Finished
+│   │   │   │   │   │   │   │   │   │   └── parking
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: No Garage
+│   │   │   │   │   │   │   │   │   │   └── neighborhood
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: 
+│   │   │   │   │   │       Note: 2 more items with similar structure
+│   │   │   │   │   │   └── properties (List)
+│   │   │   │   │   │       Length: 146
+│   │   │   │   │   │       First item structure:
+│   │   │   │   │   │   │   │   └── First Item (Dictionary)
+│   │   │   │   │   │   │   │       Number of keys: 28
+│   │   │   │   │   │   │   │       Keys:
+                                        id, address, bedrooms, gla, city,
+                                        province, postal_code,
+                                        property_sub_type, structure_type,
+                                        style, levels, room_count, full_baths,
+                                        half_baths, main_level_finished_area,
+                                        upper_lvl_fin_area, bg_fin_area,
+                                        lot_size_sf, year_built, roof, basement,
+                                        cooling, heating, close_price,
+                                        close_date, public_remarks, latitude,
+                                        longitude
+│   │   │   │   │   │   │   │       Structure of each key:
+│   │   │   │   │   │   │   │   │   │   └── id
+│   │   │   │   │   │   │   │   │   │       Type: int
+│   │   │   │   │   │   │   │   │   │       Value: 367
+│   │   │   │   │   │   │   │   │   │   └── address
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: 463 Conservatory Dr
+│   │   │   │   │   │   │   │   │   │   └── bedrooms
+│   │   │   │   │   │   │   │   │   │       Type: int
+│   │   │   │   │   │   │   │   │   │       Value: 3
+│   │   │   │   │   │   │   │   │   │   └── gla
+│   │   │   │   │   │   │   │   │   │       Type: int
+│   │   │   │   │   │   │   │   │   │       Value: 1500
+│   │   │   │   │   │   │   │   │   │   └── city
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: Kingston
+│   │   │   │   │   │   │   │   │   │   └── province
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: Ontario
+│   │   │   │   │   │   │   │   │   │   └── postal_code
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: K7M 9C8
+│   │   │   │   │   │   │   │   │   │   └── property_sub_type
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: Detached
+│   │   │   │   │   │   │   │   │   │   └── structure_type
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: Detached
+│   │   │   │   │   │   │   │   │   │   └── style
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: Brick, Vinyl Siding
+│   │   │   │   │   │   │   │   │   │   └── levels
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: Two
+│   │   │   │   │   │   │   │   │   │   └── room_count
+│   │   │   │   │   │   │   │   │   │       Type: int
+│   │   │   │   │   │   │   │   │   │       Value: 11
+│   │   │   │   │   │   │   │   │   │   └── full_baths
+│   │   │   │   │   │   │   │   │   │       Type: int
+│   │   │   │   │   │   │   │   │   │       Value: 3
+│   │   │   │   │   │   │   │   │   │   └── half_baths
+│   │   │   │   │   │   │   │   │   │       Type: NoneType
+│   │   │   │   │   │   │   │   │   │   └── main_level_finished_area
+│   │   │   │   │   │   │   │   │   │       Type: NoneType
+│   │   │   │   │   │   │   │   │   │   └── upper_lvl_fin_area
+│   │   │   │   │   │   │   │   │   │       Type: NoneType
+│   │   │   │   │   │   │   │   │   │   └── bg_fin_area
+│   │   │   │   │   │   │   │   │   │       Type: NoneType
+│   │   │   │   │   │   │   │   │   │   └── lot_size_sf
+│   │   │   │   │   │   │   │   │   │       Type: float
+│   │   │   │   │   │   │   │   │   │       Value: 3555.5
+│   │   │   │   │   │   │   │   │   │   └── year_built
+│   │   │   │   │   │   │   │   │   │       Type: NoneType
+│   │   │   │   │   │   │   │   │   │   └── roof
+│   │   │   │   │   │   │   │   │   │       Type: NoneType
+│   │   │   │   │   │   │   │   │   │   └── basement
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: Unfinished
+│   │   │   │   │   │   │   │   │   │   └── cooling
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: Central Air
+│   │   │   │   │   │   │   │   │   │   └── heating
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: Forced Air
+│   │   │   │   │   │   │   │   │   │   └── close_price
+│   │   │   │   │   │   │   │   │   │       Type: float
+│   │   │   │   │   │   │   │   │   │       Value: 674000.0
+│   │   │   │   │   │   │   │   │   │   └── close_date
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: 2025-01-13
+│   │   │   │   │   │   │   │   │   │   └── public_remarks
+│   │   │   │   │   │   │   │   │   │       Type: str
+│   │   │   │   │   │   │   │   │   │       Value: Welcome to this beautifully maintained and spacious family home! This charming residence features three generous bedrooms and two and a half bathrooms. Enjoy entertaining in the separate dining and living rooms, or relax in the open-concept kitchen that seamlessly flows into the inviting eat-in area and family room, complete with a cozy gas fireplace. Step outside through the sliding doors to discover a spacious deck and a lovely, secluded backyard perfect for family gatherings and outdoor enjoyment. Throughout the main and upper floors, you'll find elegant hardwood and ceramic flooring. The upper level boasts three large bedrooms, along with a bonus space ideal for a children's play area or additional living space. Enjoy the convenience of a full bathroom plus a four-piece ensuite. The property also includes a large garage and a double-wide driveway, providing ample parking for up to four vehicles. We can't wait to welcome you home!
+│   │   │   │   │   │   │   │   │   │   └── latitude
+│   │   │   │   │   │   │   │   │   │       Type: float
+│   │   │   │   │   │   │   │   │   │       Value: 44.2325
+│   │   │   │   │   │   │   │   │   │   └── longitude
+│   │   │   │   │   │   │   │   │   │       Type: float
+│   │   │   │   │   │   │   │   │   │       Value: -76.5901
+│   │   │   │   │   │       Note: 145 more items with similar structure
+│   │       Note: 87 more items with similar structure

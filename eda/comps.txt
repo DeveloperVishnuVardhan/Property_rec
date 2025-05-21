@@ -1,0 +1,196 @@
+DataFrame Overview: 264 rows, 19 columns
+
+======================================================================
+
+--- Analysis for Column: 'distance_to_subject' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 264
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 175
+Unique Values List (sample of first 15): ['', '.05 km', '0.00 KM', '0.01 KM', '0.02 KM', '0.03 KM', '0.05 KM', '0.06 KM', '0.07 KM', '0.08 KM', '0.09 KM', '0.11 KM', '0.12 KM', '0.13 KM', '0.14 KM']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'prop_type' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 261
+Null Values: 3 (1.14%)
+Unique Values Count (includes null if present): 10
+Unique Values List: [None, 'Condominium', 'Detached', 'Duplex', 'Fourplex', 'High Rise Apartment', 'Low Rise Apartment', 'Semi Detached', 'Townhouse', 'Triplex']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'stories' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 264
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 14
+Unique Values List: ['1 Storey', '1.5 Storey', '2 1/2 Storey', '2 Storey', '2-Storey', '2.5 Storey', '3 Level Split', '3 Storey', '4 Level Split', 'Apartment-Low-Rise (', 'Bi-Level', 'Bungalow', 'Bungalow Raised', 'Split Level']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'address' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 264
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 258
+Unique Values List (sample of first 15): ['1 Partridge Nest Dr', '1 Rock Lake Pt NW', '1 Virginia Dr', '1-150 Broadway', '1-21 Cherry St', '100 Brambling Way', '102 Deeridge Rd', '1035 Connery Ave', '105-22 Auburn Bay Link SE', '1059 Cornerstone St NE', '10673 Hidden Valley Dr NW', '107 Ahmadi Cres', '108 Macewan Park Green NW', '109 Kinniburgh Cove', '11 Union St']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'city_province' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 264
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 237
+Unique Values List (sample of first 15): ['Airdrie AB T4A 1V2', 'Airdrie AB T4A 1Y6', 'Airdrie AB T4A 1Y7', 'Amherstburg ON N9V 0C8', 'Amherstburg ON N9V 2Y7', 'Amherstburg ON N9V 3R3', 'Atwood ON N0G 1B0', 'Ayr ON N0B 1E0', 'Bedford NS B4A 3B2', 'Bedford NS B4A 4E5', 'Belwood ON N0B 1J0', 'Black Point NS B0J 1T0', 'Blandford NS B0J 1T0', 'Blind Bay NS B3Z 4C1', 'Boutiliers Point NS B3Z 1V3']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'sale_date' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 264
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 133
+Unique Values List (sample of first 15): ['Apr/01/2025', 'Apr/02/2025', 'Apr/03/2025', 'Apr/04/2025', 'Apr/05/2025', 'Apr/06/2025', 'Apr/07/2025', 'Apr/08/2025', 'Apr/09/2025', 'Apr/10/2025', 'Apr/11/2025', 'Apr/12/2025', 'Apr/14/2025', 'Apr/15/2025', 'Apr/16/2025']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'sale_price' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 264
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 203
+Unique Values List (sample of first 15): ['1,005,000', '1,020,000', '1,028,888', '1,038,888', '1,045,000', '1,070,000', '1,085,000', '1,095,000', '1,100,000', '1,105,000', '1,128,000', '1,130,000', '1,150,000', '1,175,000', '1,185,000']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'dom' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 261
+Null Values: 3 (1.14%)
+Unique Values Count (includes null if present): 146
+Unique Values List (sample of first 15): [None, '0+/-', '1 +/-', '1+/-', '10', '10 +/-', '104', '107', '108', '11', '111', '112', '118', '12', '12 +/-']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'location_similarity' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 261
+Null Values: 3 (1.14%)
+Unique Values Count (includes null if present): 4
+Unique Values List: [None, 'Inferior', 'Similar', 'Superior']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'lot_size' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 264
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 217
+Unique Values List (sample of first 15): ['0.15 Acre', '0.49 Acre', '1.22 Acres', '1.47 acres', '10 Acres', '10.029 Acres', '10.97mx 34.0m / 373', '10018 SqFt', '10030+/-SqFt', '1012 SqM', '109 x 198', '11.64m x 33.99m/393', '110 x irregular', '11029+/-SqFt', '11138 sqft']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'age' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 264
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 167
+Unique Values List (sample of first 15): ['1+/-', '10', '100+', '100+ / 10', '100+/-', '102+/-', '105+/-', '11', '11+/-', '112', '115', '12', '12+/-', '125+/-', '13']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'condition' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 264
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 6
+Unique Values List: ['Average', 'Excellent', 'Good', 'Inferior', 'Similar', 'Superior']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'gla' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 264
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 247
+Unique Values List (sample of first 15): ['1,079 sf', '1,158 SqFt', '1,221 SqFt', '1,350 SqFt', '1,478 sf', '1,494 SqFt', '1,537 SqFt', '1,590 sf', '1,629 sf', '1,732 SqFt', '1,741 SqFt', '1,805 SqFt', '1,844 sf', '1004+/-SqFt', '1032 SqFt']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'room_count' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 264
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 20
+Unique Values List (sample of first 15): ['10', '11', '12', '12+4', '13', '14', '14+6', '15', '17', '4', '5', '5+4', '6', '6+3', '7']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'bed_count' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 264
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 14
+Unique Values List: ['1', '2', '2 + 1', '2+ 1', '2+1', '2+2', '3', '3+1', '4', '4+3', '5', '6', '7', '8']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'bath_count' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 264
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 29
+Unique Values List (sample of first 15): ['1:0', '1:1', '1F', '1F 1H', '1F1P', '2', '2 Full/1Half', '2:0', '2:1', '2:2', '2F', '2F 1F', '2F 1H', '2F 2H', '2F1H']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'basement_finish' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 264
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 32
+Unique Values List (sample of first 15): ['Adjusted above in LFA', 'Cellar', 'Condo Common', 'Crawl Space', 'Devel. WO/1F', 'Developed/1F', 'Developed/2F', 'Finished-illegal apartment', 'Full Finished/Walkout', 'Full, Unfinished', 'Full, Walkout', 'Full/Fin/Walkout', 'Full/Finished', 'Full/Finished/Inlaw', 'Full/Part Finished']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'parking' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 264
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 57
+Unique Values List (sample of first 15): ['1 Car Detached', '1 Parking space', '1 Space', '1 UG Stall', '1 Underground Stall', '1, Surface Stall', '1, Undgrnd. Stall', '1.5 Builtin', '1.5 Det. Gar.', '1.5 car attached garage', '1.5Att.Gar./Dbl.Att.Gar.', '1.5Detached/GravelDwy', '2 Atta+ 2 Deta', '2 Car Attached', '2 Car Built-in']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'neighborhood' ---
+Data Type: String
+Total Values (rows): 264
+Non-Null Values: 264
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 4
+Unique Values List: ['', '31 / X11978160', '32 / X11907987', '89 / X11946599']
+
+--------------------------------------------------
+
+======================================================================
+End of DataFrame Analysis.

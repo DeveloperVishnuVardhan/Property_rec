@@ -1,0 +1,356 @@
+DataFrame Overview: 88 rows, 35 columns
+
+======================================================================
+
+--- Analysis for Column: 'address' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 88
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 88
+Unique Values List (sample of first 15): ['10 Crofton Rd Toronto ON M4G2B4', '10 Heritage Hills Dr Eastern Passage NS B3G1N5', '1004 Connery Ave Ottawa ON K1G2P1', '102 Stonewalk Dr Kemptville ON K0G 1J0', '1050 John F. Scott Rd Kingston ON K7L4V3', '1083 Cornerstone St NE Calgary AB T3N1G5', '11 Bashir St Maple ON L6A3A3', '11 Bermondsey Way Stittsville ON K2S2Y7', '11 PAUL AVE Ayr ON N0B1E0', '118 Colborne St Kingston ON K7K 1C9', '119 110 Auburn Meadows View SE Calgary, Alberta T3M 2M2', '12 Mcdougall St NW Langdon AB T0J1X2', '120 CASTLEGROVE RD NE Calgary AB T3J1T5', '1368 Shore Dr Bedford NS B4A2E8', '142-950 Oakview Ave Kingston ON K7M 6W8']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'subject_city_province_zip' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 88
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 84
+Unique Values List (sample of first 15): ['"Twin Oak Meadows"', 'Airdrie AB T4A1Y7', 'Amherstburg ON N9V2Y8', 'Ayr ON N0B1E0', 'Bedford NS B4A2E8', 'Brampton ON L6T3Z4', 'Brussels ON N0G1H0', 'Calgary AB T2E4L6', 'Calgary AB T2G 2L8', 'Calgary AB T2P 1R8', 'Calgary AB T2T1G7', 'Calgary AB T2Y0A5', 'Calgary AB T2Z0H9', 'Calgary AB T2Z2G4', 'Calgary AB T3A5T1']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'effective_date' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 88
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 24
+Unique Values List (sample of first 15): ['Apr/04/2025', 'Apr/07/2025', 'Apr/08/2025', 'Apr/09/2025', 'Apr/10/2025', 'Apr/11/2025', 'Apr/14/2025', 'Apr/15/2025', 'Apr/16/2025', 'Apr/17/2025', 'Apr/21/2025', 'Apr/22/2025', 'Apr/23/2025', 'Apr/24/2025', 'Apr/25/2025']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'municipality_district' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 75
+Unique Values List (sample of first 15): [None, '10 - 15 (Amherstburg - Malden Centre)', 'Airdrie, AB / Meadowbrook', 'Avalon West, City of Ottawa', 'Calgary AB, Livingston', 'Calgary AB, Parkdale', 'Calgary AB, Renfrew', 'Calgary AB, Rocky Ridge', 'Calgary, AB  South Calgary', 'Calgary, AB / Arbour Lake', 'Calgary, AB / Auburn Bay', 'Calgary, AB / Castleridge', 'Calgary, AB / Cornerstone', 'Calgary, AB / East Village', 'Calgary, AB / Eau Claire']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'site_dimensions' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 88
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 65
+Unique Values List (sample of first 15): ['10.05m x 45.23m', '10.36m x 30.08m', '10.36m x 31.99m', "101.39' x 527'", "101.7' x 68.9'", '11.71 m x 32.56 m', '13.18 F x Irregular', '13.25m x33.99m', '13.72m x 29.87m', "131' x 154'", '138 x 167', '14.30 m x 38.40 m', '14.32m x 37.80m', '15.03 m x 35.00 m', '15.23m x 38.07m']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'lot_size_sf' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 88
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 77
+Unique Values List (sample of first 15): ['0.5ac', '1.22  Acres', '1.25 Acres', '10 Acres', '10,014 SqFt', '10.057 Acres', '10570 SqFt', '12600 SqFt', '14 Acres', '14232 SqFt', '14375 SqFt', '15936 SqFt', '1742 SqFt', '1868 SqFt', '20174 SqFt']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'units_sq_ft' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 5
+Unique Values List: [None, 'Acres', 'N/A', 'SqFt', 'SqM']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'year_built' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 58
+Unique Values List (sample of first 15): [None, '1845', '1885', '1890', '1900', '1910', '1920', '1940', '1941', '1950', '1951', '1952', '1961', '1968', '1970']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'structure_type' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 10
+Unique Values List: [None, 'Condominium', 'Detached', 'Duplex', 'Fourplex', 'High Rise Apartment', 'Low Rise Apartment', 'Semi Detached', 'Townhouse', 'Triplex']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'roofing' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 15
+Unique Values List: [None, 'Asphalt', 'Asphalt Shingle', 'Asphalt shingle', 'Asphalt shingles', 'Asphalt/Fiberglass Shingle', 'Membrane, Asphalt Shingle', 'Metal', 'Rubber shingle', 'Tar & Gravel', 'Tar & Gravel, Membrane', 'Tar and Gravel', 'Tar/Gravel', 'asphalt shingle', 'flat-tar/gravel']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'effective_age' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 21
+Unique Values List (sample of first 15): [None, '0', '1', '10', '12', '14', '15', '2', '20', '25', '3', '30', '4', '40', '5']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'style' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 88
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 13
+Unique Values List: ['1 Storey', '1.5 Storey', '2 Storey', '2 strorey', '2.5 Storey', '3 Plus Stories', '3 Storey', '4 Level Split', 'Bi-Level', 'Bungalow', 'Bungalow Raised', 'Split Level', 'one level']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'construction' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 10
+Unique Values List: [None, 'Concrete', 'Concrete Foundation & Floors', 'Log', 'Steel', 'Wood', 'Wood Frame', 'Wood frame', 'Wood/Concrete', 'concrete/steel']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'remaining_economic_life' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 21
+Unique Values List (sample of first 15): [None, '35', '40', '45', '46', '48', '50', '52', '54', '55', '59', '60', '63', '64', '65']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'windows' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 12
+Unique Values List: [None, 'Aluminum Clad Vinyl', 'Combination', 'OtherInput', 'PVC', 'Vinyl', 'Vinyl / Aluminum', 'Vinyl, Wood', 'Vinyl, Wood, Aluminum Clad Wood', 'Wood', 'Wood, Vinyl', 'thermopane']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'basement' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 88
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 20
+Unique Values List (sample of first 15): ['Cellar', 'Condo Common', 'Driveway', 'Finished-illegal apartment', 'Finished-wet bar', 'Full Finished/Walkout', 'Full, Walkout', 'Full/Finished', 'Full/Part Finished', 'Full/Unfinished', 'No Basement', 'No basement', 'None', 'Part / Finished', 'Part Finished/Walkout']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'exterior_finish' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 41
+Unique Values List (sample of first 15): [None, 'Brick', 'Brick / Composite', 'Brick / Stucco', 'Brick Veneer', 'Brick Veneer, Vinyl Siding', 'Brick Veneer/Vinyl Siding', 'Brick veneer, vinyl siding', 'Brick, Siding', 'Brick, Vinyl siding', 'Brick, siding', 'Brick/Siding', 'Brick/Stone, Stucco', 'Concrete', 'Concrete / Metal']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'basement_area' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 72
+Unique Values List (sample of first 15): [None, '', '0', '1,678', '1000', '1000+/-', '1005', '102', '1021', '1050', '1050±', '1060', '1094', '1109', '1135']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'foundation_walls' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 9
+Unique Values List: [None, 'Concrete', 'Concrete Block', 'Poured Concrete', 'Poured concrete', 'Stone', 'Stone/Concrete Block', 'concrete', 'poured concrete']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'flooring' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 40
+Unique Values List (sample of first 15): [None, 'Carpet', 'Carpet, tile and hardwood', 'Carpet, vinyl tile', 'Ceramic', 'Engineered Hardwood', 'Engineered hardwood, tile, carpet', 'Hardwood', 'Hardwood, carpet, laminate, ceramic', 'Hardwood, carpet, tile', 'Hardwood, ceramic', 'Hardwood, ceramic, carpet, laminate', 'Hardwood, ceramic, laminate', 'Hardwood, ceramic, laminate, carpet', 'Hardwood, ceramic, laminate, carpet, vinyl']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'plumbing_lines' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 12
+Unique Values List: [None, 'ABS', 'ABS/Copper/Pex', 'Copper', 'Copper, PEX, ABS', 'Copper/Abs', 'Copper/PVC', 'Mixed', 'OtherInput', 'PEX/PVC', 'PVC and Pex (Not kitec)', 'PVC/Copper']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'heating' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 19
+Unique Values List (sample of first 15): [None, '2 ducted heat pumps and Radiant', 'Baseboard, Some Infloor', 'Ducted heat pump & FHA Oil back up', 'Electric Baseboard', 'Forced Air', 'Forced Air for each unit', 'Forced air, Radiant in-floor heating', 'Geothermal', 'HOT WATER BASEBOARD', 'HWBB', 'Heat Pump - Fully Ducted', 'Hot Water Baseboard', 'Hot Water Radiators', 'Hot Water/Steam Boiler']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'fuel_type' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 9
+Unique Values List: [None, 'Baseboard', 'Electric', 'Electric and Oil', 'Ground Source', 'Natural Gas', 'Oil', 'Propane', 'forced air gas']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'water_heater' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 14
+Unique Values List: [None, '40 Gallon - Gas', '50 US Gallons', '80 +/- gl Electric', 'Common Property', 'Conventional', 'Electric', 'Hot Water Tank', 'Integrated with boiler', 'Natural Gas', 'Oil Fired Hot Water Heater', 'Propane', 'Tankless/Instant', 'Water heater for each unit']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'cooling' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 5
+Unique Values List: [None, 'Central Air', 'Ductless mini split', 'Heat Pump', 'None']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'room_count' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 10
+Unique Values List: [None, '10', '12', '15', '4', '5', '6', '7', '8', '9']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'num_beds' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 10
+Unique Values List: [None, '1', '2', '2+2', '3', '3+1', '4', '5', '7', '8']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'room_total' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 10
+Unique Values List: [None, '10', '12', '15', '4', '5', '6', '7', '8', '9']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'main_lvl_area' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 66
+Unique Values List (sample of first 15): [None, '', '1,678', '1005', '1021', '1039', '1045.37', '1050', '1060', '1074', '108', '1094', '1102', '1109', '111']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'second_lvl_area' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 45
+Unique Values List (sample of first 15): [None, '', '1005', '1108', '1152', '1169', '1261', '1292', '1314', '1321', '1340', '138', '150', '155', '1677']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'third_lvl_area' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 3
+Unique Values List: [None, '', '300']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'gla' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 88
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 87
+Unique Values List (sample of first 15): ['1,678 SqFt', '1,840 SqFt', '1039 SqFt', '1044', '1050 SqFt', '1094 SqFt', '1109 SqFt', '1132 SqFt', '1144 SqFt', '1149 SqFt', '1170 SqFt', '1176 SqFt', '1178 SqFt', '1236 SqFt', '1254 SqFt']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'subject_age' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 88
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 68
+Unique Values List (sample of first 15): ['1', '10', '105', '12', '125', '135', '14+/-yrs', '140', '15', '17', '180', '19', '1910', '1950', '1951']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'num_baths' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 87
+Null Values: 1 (1.14%)
+Unique Values Count (includes null if present): 18
+Unique Values List (sample of first 15): [None, '1:0', '1:1', '1F', '1F 1H', '2', '2 Full/1Half', '2:0', '2:1', '2:2', '2F', '2F 1H', '3:0', '3:1', '3:2']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'condition' ---
+Data Type: String
+Total Values (rows): 88
+Non-Null Values: 88
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 4
+Unique Values List: ['Average', 'Excellent', 'Fair', 'Good']
+
+--------------------------------------------------
+
+======================================================================
+End of DataFrame Analysis.

@@ -1,0 +1,356 @@
+DataFrame Overview: 9820 rows, 35 columns
+
+======================================================================
+
+--- Analysis for Column: 'id' ---
+Data Type: Int64
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 7555
+Unique Values List (sample of first 15): [2, 8, 26, 28, 30, 36, 37, 42, 43, 46, 50, 51, 52, 53, 54]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'orderID' ---
+Data Type: String
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 88
+Unique Values List (sample of first 15): ['4723364', '4742669', '4752865', '4755196', '4756192', '4756320', '4756829', '4757939', '4757966', '4758025', '4758316', '4758324', '4758529', '4758615', '4758672']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'address' ---
+Data Type: String
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 7536
+Unique Values List (sample of first 15): ['(Address not available) ', '1 Dove Place ', '1 Exeter Avenue ', '1 Grandlea Terrace ', '1 Grandview Court', '1 Hollowood Court ', '1 Lancaster Drive', '1 Le May Road ', '1 Milloy Place ', '1 Partridge Nest Drive', '1 Place Madeleine Street ', '1 Rock Lake Point NW ', '1 Royal Elm Way NW ', '1 Saturn Drive', '1 Shaw Crescent']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'city' ---
+Data Type: String
+Total Values (rows): 9820
+Non-Null Values: 9817
+Null Values: 3 (0.03%)
+Unique Values Count (includes null if present): 84
+Unique Values List (sample of first 15): [None, 'Airdrie ', 'Amaranth ', 'Amherstburg ', 'Augusta', 'Aurora ', 'Belwood Lake ', 'Brampton ', 'Brock ', 'Brussels ', 'Calgary', 'Calgary ', 'Camden East ', 'Centre Wellington ', 'Chatham ']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'province' ---
+Data Type: String
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 5
+Unique Values List: ['Alberta', 'BC', 'Nova Scotia', 'Ontario', 'Unknown']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'postal_code' ---
+Data Type: String
+Total Values (rows): 9820
+Non-Null Values: 9786
+Null Values: 34 (0.35%)
+Unique Values Count (includes null if present): 4441
+Unique Values List (sample of first 15): [None, '', 'B0H 1N0', 'B0J 1B0', 'B0J 1N0', 'B0J 1P0', 'B0J 1T0', 'B0J 2L0', 'B0N 3A0', 'B2T 1G4', 'B2V 1A2', 'B2V 1A9', 'B2V 1B9', 'B2V 1C2', 'B2V 1K6']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'latitude' ---
+Data Type: Float64
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 4002
+Unique Values List (sample of first 15): [42.1017, 42.1025, 42.1378, 42.3742, 42.394, 42.3942, 42.4001, 42.4015, 42.8445, 42.8453, 42.8458, 42.8485, 42.8486, 42.8493, 42.8565]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'longitude' ---
+Data Type: Float64
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 3053
+Unique Values List (sample of first 15): [-114.257, -114.256, -114.255, -114.254, -114.252, -114.251, -114.25, -114.249, -114.248, -114.247, -114.246, -114.245, -114.244, -114.243, -114.242]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'property_sub_type' ---
+Data Type: String
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 44
+Unique Values List (sample of first 15): ['', '4 plex', 'Apartment', 'Common Element Condo', 'Condo Apartment', 'Condo Apt', 'Condo Townhouse', 'Condo/Apt Unit', 'Detached', 'Detached Single Family', 'Detached, Agriculture', 'Detached, Freehold', 'Detached, Single Family Residence', 'Duplex', 'Duplex Up/Down']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'structure_type' ---
+Data Type: String
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 128
+Unique Values List (sample of first 15): ['', '4 plex', 'Apartment', 'Apartment, One Level ', 'Bungalow', 'Common Element Condo, Apartment ', 'Common Element Condo, Loft ', 'Condo Apartment, 1 Storey/Apt ', 'Condo Apartment, 2-Storey ', 'Condo Apartment, 3-Storey ', 'Condo Apartment, Apartment ', 'Condo Apartment, Bachelor/Studio ', 'Condo Apartment, Bungalow ', 'Condo Apartment, Loft ', 'Condo Apartment, Multi-Level ']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'style' ---
+Data Type: String
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 137
+Unique Values List (sample of first 15): ['', '1 1/2 Storey', '1 1/2 Storey ', '1 3/4 Storey', '1 Level', '1 Storey/Apt ', '1 and Half Storey ', '1 and Half Storey, At ', '1.5 Level', '1.5 Storey ', '2 1/2 Storey', '2 1/2 Storey ', '2 Level', '2 Level, 3 Level', '2 Level, 5 Level']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'levels' ---
+Data Type: String
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 123
+Unique Values List (sample of first 15): ['', '1 1/2 Storey ', '1 3/4 Storey', '1 Level', '1 Storey/Apt ', '1 and Half Storey ', '1 and Half Storey, At ', '1.5 Level', '1.5 Storey ', '2', '2 1/2 Storey ', '2 Level', '2 Level, 3 Level', '2 Level, 5 Level', '2 Storey ']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'bedrooms' ---
+Data Type: Float64
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 10
+Unique Values List: [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'full_baths' ---
+Data Type: Float64
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 8
+Unique Values List: [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 10.0]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'half_baths' ---
+Data Type: Float64
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 4
+Unique Values List: [0.0, 1.0, 2.0, 3.0]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'room_count' ---
+Data Type: Float64
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 27
+Unique Values List (sample of first 15): [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'gla' ---
+Data Type: Float64
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 2078
+Unique Values List (sample of first 15): [250.0, 320.0, 333.0, 334.0, 336.0, 357.0, 362.0, 363.0, 367.0, 377.0, 400.0, 408.0, 410.0, 411.0, 413.0]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'main_level_finished_area' ---
+Data Type: Float64
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 924
+Unique Values List (sample of first 15): [45.0, 64.0, 76.0, 116.0, 170.0, 213.0, 218.0, 240.0, 261.0, 266.0, 274.0, 298.0, 302.0, 318.0, 323.0]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'upper_lvl_fin_area' ---
+Data Type: Float64
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 733
+Unique Values List (sample of first 15): [37.0, 74.0, 125.0, 141.0, 197.0, 207.0, 213.0, 231.0, 244.0, 259.0, 265.0, 271.0, 283.0, 296.0, 308.0]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'lot_size_sf' ---
+Data Type: Float64
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 2114
+Unique Values List (sample of first 15): [0.0, 1.0, 19.0, 20.0, 27.0, 32.0, 36.0, 38.0, 47.0, 75.0, 86.0, 89.0, 91.0, 92.0, 95.0]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'year_built' ---
+Data Type: Float64
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 130
+Unique Values List (sample of first 15): [1829.0, 1850.0, 1863.0, 1870.0, 1875.0, 1882.0, 1885.0, 1888.0, 1890.0, 1893.0, 1900.0, 1901.0, 1903.0, 1905.0, 1907.0]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'roof' ---
+Data Type: String
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 94
+Unique Values List (sample of first 15): ['', 'Asphalt ', 'Asphalt Shing ', 'Asphalt Shing,  Membrane ', 'Asphalt Shing,  Membrane,  Tar/Gravel ', 'Asphalt Shing,  Shingle ', 'Asphalt Shing,  Solar ', 'Asphalt Shingle', 'Asphalt Shingle ', 'Asphalt Shingle, Asphalt/Gravel ', 'Asphalt Shingle, Flat, Membrane ', 'Asphalt Shingle, Membrane ', 'Asphalt Shingle, Metal', 'Asphalt Shingle, Metal ', 'Asphalt Shingle, Rolled']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'basement' ---
+Data Type: String
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 216
+Unique Values List (sample of first 15): ['', 'Apartment', 'Apartment ', 'Apartment, Fin W/O ', 'Apartment, Finished ', 'Apartment, Finished with Walk-Out ', 'Apartment, Full ', 'Apartment, Separate Entrance ', 'Apartment, Walk-Out ', 'Apartment, Walk-Up ', 'Crawl Space', 'Crawl Space ', 'Crawl Space, Finished', 'Crawl Space, Finished ', 'Crawl Space, Full ']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'cooling' ---
+Data Type: String
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 195
+Unique Values List (sample of first 15): ['', 'Baseboard', 'Baseboard, Ducted Cooling', 'Baseboard, Ductless Cooling', 'Baseboard, ETS (Elec Thermal Storage)', 'Baseboard, Fireplace', 'Baseboard, Fireplace, In Floor', 'Baseboard, Forced Air', 'Baseboard, Forced Air, Fireplace', 'Baseboard, Forced Air, Heat Pump, Fireplace, Ductless Cooling', 'Baseboard, Forced Air, Heat Pump, Fireplace, ETS (Elec Thermal Storage), Ductless Cooling', 'Baseboard, Forced Air, Heat Pump, In Floor, Ducted Cooling', 'Baseboard, Furnace', 'Baseboard, Furnace, Fireplace', 'Baseboard, Furnace, Forced Air']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'heating' ---
+Data Type: String
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 424
+Unique Values List (sample of first 15): ['', 'Baseboard', 'Baseboard ', 'Baseboard,  Electric ', 'Baseboard,  Electric,  Fireplace-Gas ', 'Baseboard,  Electric,  Forced Air ', 'Baseboard,  Electric,  Forced Air,  Natural Gas,  Heat Pump ', 'Baseboard,  Electric,  Natural Gas,  Propane ', 'Baseboard,  Forced Air ', 'Baseboard,  Forced Air-Propane ', 'Baseboard,  Hot Water,  Natural Gas ', 'Baseboard,  Natural Gas', 'Baseboard,  Natural Gas ', 'Baseboard,  Water ', 'Baseboard, Boiler ']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'close_price' ---
+Data Type: Float64
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 2050
+Unique Values List (sample of first 15): [0.0, 1700.0, 2600.0, 8500.0, 46900.0, 54000.0, 65000.0, 96000.0, 99950.0, 108000.0, 115000.0, 126000.0, 128000.0, 130000.0, 131500.0]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'close_date' ---
+Data Type: Datetime(time_unit='us', time_zone=None)
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 201
+Unique Values List (sample of first 15): [datetime.datetime(2024, 10, 16, 0, 0), datetime.datetime(2024, 10, 17, 0, 0), datetime.datetime(2024, 10, 18, 0, 0), datetime.datetime(2024, 10, 19, 0, 0), datetime.datetime(2024, 10, 20, 0, 0), datetime.datetime(2024, 10, 21, 0, 0), datetime.datetime(2024, 10, 23, 0, 0), datetime.datetime(2024, 10, 24, 0, 0), datetime.datetime(2024, 10, 25, 0, 0), datetime.datetime(2024, 10, 26, 0, 0), datetime.datetime(2024, 10, 27, 0, 0), datetime.datetime(2024, 10, 28, 0, 0), datetime.datetime(2024, 10, 29, 0, 0), datetime.datetime(2024, 10, 30, 0, 0), datetime.datetime(2024, 10, 31, 0, 0)]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'public_remarks' ---
+Data Type: String
+Total Values (rows): 9820
+Non-Null Values: 9816
+Null Values: 4 (0.04%)
+Unique Values Count (includes null if present): 6993
+Unique Values List (sample of first 15): [None, '', '                                                                                                                                                                                    Beautifully Updated Home with Legal Suite & Approved Airbnb!Welcome to this bright and spacious home, perfect for families or investors! The main level features an updated kitchen with quartz countertops, stainless steel appliances, and ample storage. Fresh newer paint and flooring add to the modern feel, while large windows bring in plenty of natural light. The main floor also includes a primary bedroom with a private ensuite, two additional bedrooms, and a well-appointed main bathroom.The legal 2-bedroom basement suite comes with a separate entrance, its own laundry, and plenty of storage, making it an excellent rental opportunity or ideal space for extended family. Best of all, this home has an approved Airbnb, providing a fantastic income-generating opportunity!Additional upgrades include a newer furnace, hot water tank, and roof, ensuring long-term peace of mind. Other highlights include a heated attached double garage and a prime location close to schools, transit, parks, and shopping.Don’t miss out on this fantastic opportunity—schedule your showing today!', "                      $20'000 PRICE REDUCED   ,   $20'000 PRICE REDUCED   ,   $20'000 PRICE REDUCED     , $20'000 PRICE REDUCED !!!                                              Experience the ideal mix of convenience and comfort with modern living at its finest in this extensively RENOVATED 2-bedroom, 2-bathroom unit in the desirable Red Haus complex, located in the highly desirable Royal Oak community.  This 2-bedroom, 2-bathroom condo offers an open-concept living space featuring full renovated kitchen with top quarts counter, upgraded wood planks flooring, 9-foot ceilings, baseboards, fridge, microwave, a private balcony equipped with a gas line for barbecuing & newly installed dishwasher as well. The spacious living room can accommodate full-sized furniture, boasts large windows, and provides access to the adjacent balcony. This condo has been refreshed with new paint, new flooring, new kitchen, new refrigerator and new countertops just years ago, ensuring it's move-in ready. Just at entrance 4piece wash room along with laundry provides the high level of comfortability. Additional features include underground parking, and extra storage space for your convenience. Moreover, AC installation making “Central Air-conditioned” to whole inside property leaving the cool & cozy impact.  The condo complex itself offers excellent amenities for its residents, including a well-equipped gym and a recently renovated lounge complete with a pool table and kitchen, ideal for entertaining guests or relaxing after a long day.  For those pet lovers out there, you’ll be happy to hear this is a pet-friendly complex. Just steps away from the bustling Royal Oak shopping area, you'll have easy access to a variety of amenities including shopping, restaurants, and grocery stores. A short drive will take you to the Shane YMCA, a top-notch recreational facility you have to see. With its prime location and stylish updated interior, this condo is perfect for first-time home buyers, those looking to downsize, or savvy investors. Walking distance to public transportation, pathways, shopping, dining, coffee shops and medical offices. Easy access to Stoney and Crowchild Trail and a short drive to the airport makes this property an exceptional property. I invite you to tour this exceptional condo and see for yourself why it's the perfect place to call home. The property is truly incredible so call your realtor to book the showing as this beautiful house won't last longer owing at this gorgeous home today!", '         Welcome to this stunning , exquisitely crafted beautiful detached  home in the vibrant community of Cornerstone, Calgary. Spanning 1,526 square feet, this thoughtfully designed property features 3 spacious bedrooms and 2.5 bathrooms. The heart of the home is the upgraded kitchen, showcasing elegant finishes, plenty of cabinet space, and modern appliances perfect for both family meals and entertaining.One of the standout features is the convenient separate side entrance, offering direct access to the basement which comes equipped with legal rough-ins completed by the builder. This adds tremendous potential for future development or a legal suite. A host of additional upgrades further enhance the home, ensuring comfort and style at every turn.Nestled in a growing neighborhood near future schools, parks, and shopping, this residence is an ideal choice for families and investors alike. Don’t miss out on this exceptional opportunity—schedule your private tour today!   ', "      PRICE REDUCED       PRICE REDUCED          PRICE REDUCED           PRICE REDUCEDMUST OWN-FULLY STUCCO EXTERIOR WITH BRICK ACCENTS FINISH CHARMING DETACHED FRONT GARAGE   HOME, located & nestled in the serene lake community of Arbour Lake in Calgary Alberta. No worry about weather especially Hail damaged issue due to stucco finish. The open floor plan kitchen, dining, family and living room make this the perfect home for entertaining. Main level of this home features two SEPARATE LIVING AREAS one with Dinning Area & Kitchen and other Big Living Area just at the entrance. Upon entering this property, you are greeted by BIG living area, a mix of modern & traditional concept experiencing your privacy feeling with lots of windows & high ceiling. Just after entrance, shoe rack & half washroom complete comforts level to the guests sitting in main separate living area. Laundry room with sink, closet organizer, small cabinets with big window adds the convenience on its top priority. As you move few steps ahead, here is huge family living area along with great open concept kitchen. Nice Dinning area and fireplace prevalence leaves the soothing and cozy impact on whole area. Just besides the kitchen, step out back into your Fully Fenced Backyard where you will find Huge Deck covered with Shed, here you can BBQ & entertain, sit back and relax on the Huge deck offering an amazing spot to enjoy your morning coffee or evening drinks with family and friends. At Upper floor a huge and wide-open BONUS ROOM , provide you another spot and place to have a fun with your family, friends. Huge Windows in bonus area, brings tons of natural lights in the whole property. There is a great MASTER BEDROOM with A FULL BATH ROOM & JACUZZI HOT TUB WITH STANDING SHOWER provides you complete Relaxation & Comforts. Upstairs you are also greeted with reasonable size TWO MORE BEDROOMS, each one having CLOSET with a common FULL BATH ROOM. The front attached garage and driveway allow for 4 vehicles to be parked at all times! PARTIAL FINISHED BASEMNET WITH the future POTENTIAL OF SEPARATE ENTRANCE HAVING ONE BEDROOM (without window), ONE LARGE FULL BATHROOM & BIG STORAGE area with two big windows needs your personal touch to convert it in to business-oriented property. The Arbour Lake community has it all: Schools, a pristine lake brimming with rainbow trout, neighborhood parks, spectacular mountain views, Swimming, boating, fishing, ice skating, concession stands, community events, & much more. As the only lake community in Northwest Calgary, Arbour Lake offers an unparalleled quality of living. This house only 20 mins drives to the Calgary Airport & has a great access to Stoney & Deerfoot Trail. Don't miss this opportunity to make this home your dream house", '   BEAUTIFUL TOP FLOOR South East facing -2-bedroom condo with only ONE COMMON WALL for added privacy and less noise.  This unit offers a beautiful sunrise with an abundance of natural light.  Pride of ownership is evident throughout, well taken care home of with UPGRADES makes this one stand out.  Enjoy access to the Lake, perfect for summer relaxation and recreational activities. This condo includes titled underground parking with additional storage, providing convenience and security.  Situated close to essential amenities and South Health Campus.  Ideal location for both comfort and accessibility!  ', "  'Welcome to this charming 1300 sq ft townhouse offering lake privileges in the sought-after community of Arbour Lake! This fully developed home boasts a functional layout with ample living space. Spacious living room and dining room , the kitchen is bright and airy and has an abundance of cabinetry.  The main floor is topped of with a 2pce powder room and laundry. The upper level has 3 good size bedrooms. The fully developed space is great for a family room/games room and still has a spacious flex room. Enjoy your morning coffee on the inviting front porch and host summer BBQs on the back deck, perfect for entertaining. With its prime location and access to year-round lake activities, this property is a must-see for those seeking a vibrant and active lifestyle. Don't miss out on this incredible opportunity!'", "  BRAND NEW | NO CONDO FEE | 3 BEDROOMS | 2.5 BATHROOMS | DOUBLE ATTACHED GARAGE | Welcome to this  NEW beautifully designed 2-storey NO CONDO FEE townhome in the sought-after community of Carrington in NW Calgary! Offering a front porch ,3 spacious bedrooms, 2.5 bathrooms, Triple Glazed Windows and a double attached garage with unfinished basement, this home is perfect for families and professionals alike. Step inside to a bright, open-concept main floor featuring stylish LVP flooring throughout. The modern kitchen is equipped with quartz countertops, upgraded stainless steel appliances, and a generous dining area, perfect for entertaining. A cozy living room and convenient half bath complete the space. Upstairs, you'll find a generous sized primary bedroom with a 4-piece ensuite and a  walk in closet, two additional well-sized bedrooms, a second full bathroom, and a large balcony—ideal for relaxing with your morning coffee. The unfinished basement comes with plumbing rough ins for potential future development.This home also comes with comes with a 200-amp panel, EV charging rough in, and solar panel rough-in.Nestled in a family-friendly community, this home is short distance from shopping,  ponds and Highway. Enjoy the charming front porch, upper-floor laundry, and the convenience of NO condo fees! Don’t miss out—schedule your showing today!", '  Beautiful, well maintained, low maintenance 2-storey townhome in the sought after community of Royal Oak with 2 parking stalls! This home features an open floor plan with large bay window, stunning gas fireplace, and rich walnut laminate flooring throughout. The large bright kitchen has maple cabinets, and opens to backyard and deck, perfect for BBQ’s or just to relax in the outdoors. Upstairs you will find three spacious bedrooms. The primary bedroom features a large bay window, walk-in closet, and a cheater 4 piece bathroom. Two additional bedrooms complete the upstairs. The partially finished basement is a blank canvas for you to create your own personal living space with bedroom and bathroom (plumbing is in place for additional bathroom.) Home has brand new Hot Water Tank, brand new LG dishwasher, updated flooring. The community of Royal Oak offers vast amenities, all within walking distance, or drive if you feel. There are great schools, playgrounds, a community center all joined by pathways. Nearby is Royal Oak Center which is home to supermarkets, pharmacies, dine-in and take-out restaurants. Transit is conveniently located steps away on the main boulevard. Country Hills Blvd and Stoney Trail easily connect this beautiful community to the rest of the city. Avid outdoors people will appreciate quick access to the mountains and stargazers will love seeing the northern lights from your own backyard. *Red Samsung washer and dryer not included- home will be sold with working white colored washer and dryer set.', '  River Park Brownstones – Redefining Luxury Living in Altadore Discover River Park Brownstones, a luxurious enclave of contemporary townhomes in Calgary’s highly desirable Altadore neighborhood. These exclusive residences are just steps from the beautiful Altadore River Park, the winding trails along the Elbow River, and the vibrant urban amenities of Marda Loop. Designed for those who value elegance, functionality, and convenience, River Park Brownstones offers a lifestyle that’s deeply connected to both nature and city life, all within reach of Calgary’s finest schools, downtown, and outdoor recreational spaces. Spanning an impressive 2,400 square feet of living space, each townhome is meticulously designed to blend modern sophistication with unparalleled comfort. The layout features four spacious bedrooms, each equipped with large walk-in closets, ensuring ample storage without compromising on style. The primary suite is a sanctuary of luxury, complete with breathtaking city views from the freestanding tub, a dual vanity with integrated LED strip lighting, and a spa-like steam shower. To top it all off, the ensuite bathroom’s heated floors provide year-round comfort, creating a truly luxurious experience every time you step inside. The South-facing rooftop patio is an exclusive highlight of the primary suite, offering a private outdoor escape with sweeping urban vistas. Whether you’re enjoying morning coffee, an evening glass of wine, or entertaining guests, this rooftop space is the ideal spot for relaxation and taking in Calgary’s skyline. Throughout the home, contemporary finishes and premium materials add a touch of understated elegance. The floors are crafted from high-quality white oak, creating a seamless flow through each room. Floor-to-ceiling windows in the living and dining areas provide expansive North and South views while flooding the space with natural light, enhancing the open, airy ambiance. The gourmet kitchen is a chef’s dream, featuring quartz countertops, a substantial island, and top-of-the-line appliances, making it the heart of the home—perfect for entertaining or everyday meals. In addition to its stunning aesthetic, this townhome is equipped with advanced home automation, making modern living effortless. The property is pre-wired with rough-ins for Home Concepts Automation, dual-zone climate control managed through an Ecobee thermostat, and provisions for air conditioning. A Lennox furnace ensures energy-efficient heating, and gimbal pot lighting throughout adds both functionality and ambiance. Sustainability meets convenience with a garage that’s fully prepped for electric vehicle charging, providing future-forward solutions for today’s homeowners. Outside, the low-maintenance landscaping is as practical as it is beautiful. , the front and back yards stay lush and green with minimal upkeep. A spray foam roof enhances , MGS Custom homes is willing to pay GST on any offers', '  Welcome to this beautifully updated, spotlessly clean home in the great community of Renfrew with over 1500 feet of developed living space. As you enter the home, you will find a beautiful large kitchen with stainless steel appliances, granite countertops, and Gorgeous tile floors. A bright open Space leads you into the spacious living room, With beautiful laminate flooring and a large window. Upstairs, you will find three very spacious bedrooms with lots of light and a four piece bathroom. The basement is developed with a beautiful family room and laundry room, and a newer three-piece bathroom. This home  must be seen. Close to downtown, buses, schools, shopping, and Deerfoot Trail, Arenas and swimming pool. You’ll fall in love', "  Welcome to this charming semi-detached home nestled in the highly sought-after community of Cornerstone! With its excellent location and inviting features, this property offers a delightful living experience for you and your family. As you step inside, you'll be greeted by an open-concept main floor that exudes a sense of airiness and comfort. The heart of this home is the generously-sized and stylish modern kitchen. Its sleek design is accentuated by the elegant quartz countertops, providing ample space for meal preparation, culinary creativity, and entertaining guests. The pristine white quartz surfaces beautifully blend in with the modern cabinetry, creating a luxurious and inviting ambiance. Located at the back of the house, you'll find a convenient mudroom—a functional space designed to keep things organized and tidy. Say goodbye to cluttered entryways as this mudroom provides an ideal spot to store coats, shoes, and everyday essentials. This lovely home has three spacious bedrooms, providing ample space for relaxation and rest. The large primary bedroom comes with an en-suite bathroom, ensuring convenience and privacy. Additionally, there are two more well-appointed bathrooms, perfect for accommodating guests and family members alike. A standout feature of this home is the Illegal basement suite, which comes equipped with 1 additional bedrooms, a full bathroom, and a kitchen area. Whether you need a home office, a cozy media room, or a private living area for extended family members, this versatile space has you covered. The low-maintenance yard is a haven for those who prefer leisure over extensive yard work. Enjoy outdoor gatherings, barbecues, or simply unwind in this serene space without the hassle of constant upkeep. The location couldn't be more ideal! Cornerstone offers a vibrant and family-friendly community with an abundance of amenities within close proximity. The neighborhood is well-connected, making commuting a breeze, and it also ensures easy access to schools, shopping centers, dining options, and various entertainment venues. Don't miss the chance to make this charming semi-detached home in Cornerstone your own! Experience comfort, convenience, and community living at its finest. Book a showing today and seize this wonderful opportunity to create lasting memories in a place you can proudly call home.", "  Welcome to this stunning 4 bed/3.5 bath 2 storey home on a quiet cul de sac, w/2 lake access points; two homes down a path to a semi private dock for only 18 homes & a quick walk to the beach club & lake in the highly desirable community of Auburn Bay! This spacious home features custom upgrades throughout, ready for you to just move in! Entering the home, you'll appreciate the exterior Gemstone lighting, 9' ceilings, wide plank engineered hardwood, & large office w/barn doors for privacy. The open concept main floor is flooded with light from the entire back wall of large windows overlooking the private backyard. The exceptional gourmet kitchen, featuring extensive custom warm white cabinetry, a huge warm wood island w/seating for 4, gorgeous granite counter tops, Brigade fridge, double wall ovens, 6 burner gas cooktop, Jenn Air dishwasher, pot filler and butler's pantry complete w/wine fridge & built in microwave. The large dining area can easily seat an 8-10 people, perfect for large family gatherings. The spacious living room features ample seating space & a stunning gas fireplace with beautiful stonework, wood mantle, & TV hidden behind barn doors. The powder room & large mudroom w/built in seating & storage complete the main floor. Outside, you'll find a peaceful backyard with large exposed aggregate patio, wood privacy screens, rustic stone wood burning fireplace & large hot tub, perfect for al fresco dinners & enjoying warm evenings. Beyond the lovely gardens & trees is your back gate out to a walkway, just two houses down to your semi private dock! Upstairs you'll find your primary bedroom sanctuary with large windows overlooking the backyard, 9' tray ceiling and spectacular spa like 5 pc ensuite, featuring separate vanities w/gorgeous granite tops, soaker tub w/elegant chandelier & transom window, and huge shower. From there you'll find the large walk in closet w/custom built ins and access to the large laundry room w/plenty of storage, making laundry a breeze. There are two additional large bedrooms & a 5pc bath, perfect for kids of any age. Completing the upper floor is the huge bonus room with large windows and built in window benches. The lower level (developed by the builder), features more 9' ceilings, & the exceptional recreation room is an entertainer's dream, with heated engineered hardwood floors, large wet bar featuring plenty of cabinetry & storage, a perfect area for a pool table, a custom eat up island and large movie area with a custom tray wood ceiling treatment. A large 4th bedroom w/Murphy bed & a 3pc bath complete the lower level. The beach club is down the block, w/pickle ball courts, beach & 43 acre lake, for all the lake fun you can imagine! The community features a 13 acre park, dog park, pond, pathways throughout, basketball & volleyball courts. Schools & shopping are just a few min away, as well as the South Calgary Health Campus & easy access to Deerfoot Tr & Stoney Tr. This stunning home will not last; book your showing today!", " **'Prime location in the heart of Taradale! This well-maintained home features 3 bedrooms upstairs, including a master bedroom with its own ensuite bath. The spacious upstairs kitchen, enhanced by a skylight, fills the area with natural light and is equipped with stainless steel appliances. The bright living room boasts a beautiful bay window and a cozy fireplace, creating a warm and inviting space. The fully developed basement has a separate entrance and includes 2 bedrooms, 1 full bathroom, a kitchen, and separate laundry—perfect for families or investors looking for rental income. With separate laundry for both upstairs and downstairs, you can enjoy the convenience of living upstairs while renting out the basement. Within walking distance to schools, parks, banks, grocery stores, Genesis Centre, public transit, and LRT stations. A fantastic opportunity in a highly sought-after community—don’t miss out!'**"]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'total_baths' ---
+Data Type: Float64
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 13
+Unique Values List: [0.0, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'price_per_sqft' ---
+Data Type: Float64
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 6330
+Unique Values List (sample of first 15): [1.5037593984962405, 1.8888888888888888, 43.04635761589404, 60.40268456375839, 67.0, 108.58794384805945, 115.53600370456124, 119.50904392764858, 120.15018773466834, 121.17647058823529, 127.90240062967335, 129.93421052631578, 131.83404420317953, 138.130081300813, 139.52173913043478]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'property_class' ---
+Data Type: String
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 4
+Unique Values List: ['Basic', 'Luxury', 'Premium', 'Standard']
+
+--------------------------------------------------
+
+--- Analysis for Column: 'sale_year' ---
+Data Type: Int32
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 2
+Unique Values List: [2024, 2025]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'sale_month' ---
+Data Type: Int8
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 8
+Unique Values List: [1, 2, 3, 4, 5, 10, 11, 12]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'sale_quarter' ---
+Data Type: Int8
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 3
+Unique Values List: [1, 2, 4]
+
+--------------------------------------------------
+
+--- Analysis for Column: 'lot_size_unit' ---
+Data Type: String
+Total Values (rows): 9820
+Non-Null Values: 9820
+Null Values: 0 (0.00%)
+Unique Values Count (includes null if present): 3
+Unique Values List: ['Acre', 'SqFt', 'SqM']
+
+--------------------------------------------------
+
+======================================================================
+End of DataFrame Analysis.
