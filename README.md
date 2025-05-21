@@ -3,8 +3,8 @@
 Automax is an automated system for property appraisal that uses machine learning to identify and rank comparable properties for real estate valuation.
 
 Metrics:
-rain Precision@K: 0.9821428571428571, Train Recall@K: 0.9839285714285715
-Test Precision@K: 0.9743589743589743, Test Recall@K: 0.9743589743589743
+rain Precision@K: 0.98, Train Recall@K: 0.98
+Test Precision@K: 0.97, Test Recall@K: 0.97
 
 # Flow of explanation
 
