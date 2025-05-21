@@ -103,7 +103,7 @@ class RankingData:
             .when(pl.col("lot_size_unit") == "Acre").then("Acre")
             .otherwise(pl.col("lot_size_unit"))
         })
-        filterted_property_df = filtered_property_df.with_columns({
+        filtered_property_df = filtered_property_df.with_columns({
             "lot_size_unit": pl.when(pl.col("lot_size_unit") == "SqM").then("SqM")
             .when(pl.col("lot_size_unit") == "SqFt").then("SqFt")
             .when(pl.col("lot_size_unit") == "Acre").then("Acre")

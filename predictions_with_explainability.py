@@ -1,16 +1,21 @@
 # inference.py
 
-import os
-import joblib
-import shap
-
-from geopy.distance import geodesic
-from rapidfuzz import fuzz
-from typing import List, Dict, Tuple
-
-import numpy as np
-import pandas as pd
 from xgboost import XGBClassifier
+import pandas as pd
+import numpy as np
+from typing import List, Dict, Tuple
+from rapidfuzz import fuzz
+from geopy.distance import geodesic
+import shap
+import joblib
+import os
+from langchain_groq import ChatGroq
+from langchain_core.messages import HumanMessage
+
+
+GROQ_API_KEY = "YOUR_GROQ_API_KEY"
+MODEL_NAME = "llama-3.3-70b-versatile"
+
 
 # 1) The exact feature names, in the same order you trained on:
 FEATURES = [
@@ -141,6 +146,67 @@ def format_llm_explanation(
     return "\n".join(lines)
 
 
+def get_llm_explanation(prompt: str) -> str:
+    """
+    Get a human-readable explanation from Groq using LangChain.
+    """
+    system_message = """
+    You are a real estate expert assistant who explains property comparisons.
+    Explain why certain properties are selected as comparables based on the SHAP values.
+    Translate technical features into plain English:
+    - dist_km: Distance in kilometers
+    - room_diff: Difference in total room count
+    - bed_diff: Difference in bedroom count
+    - bath_diff: Difference in bathroom count
+    - lot_diff: Difference in lot size (sq ft)
+    - age_diff: Difference in age/year built
+    - gla_diff: Difference in gross living area (sq ft)
+    - style_sim: Similarity in architectural style (0-1)
+    - heating_sim: Similarity in heating system (0-1)
+    - cooling_sim: Similarity in cooling system (0-1)
+    - property_class_sim: Similarity in property type/class (0-1)
+    
+    For each property, explain the top 3 factors that influenced its selection, 
+    using natural language a homeowner would understand.
+    """
+
+    complete_prompt = f"{system_message}\n\nBased on the data below, explain why these properties were selected as the best comparables:\n\n{prompt}"
+
+    # Initialize the Groq chat model with LangChain
+    chat = ChatGroq(
+        api_key=GROQ_API_KEY,
+        model_name=MODEL_NAME
+    )
+
+    # Generate the explanation
+    message = HumanMessage(content=complete_prompt)
+    response = chat.invoke([message])
+
+    return response.content
+
+
+def explain_recommendations(
+    subject: Dict,
+    properties: List[Dict],
+    model_path: str = "xgboost_model.joblib",
+    top_k: int = 3
+) -> Tuple[pd.DataFrame, str]:
+    """
+    Ranks properties and returns both the top properties and a human-readable explanation.
+    """
+    # Rank properties using XGBoost and SHAP
+    topk_df, explanations = rank_properties(
+        subject, properties, model_path, top_k)
+
+    # Format the explanation for the LLM
+    llm_prompt = format_llm_explanation(subject, explanations)
+
+    # Get the human-readable explanation from the LLM
+    human_explanation = get_llm_explanation(llm_prompt)
+
+    return topk_df, human_explanation
+
+
 if __name__ == "__main__":
     # — EXAMPLE USAGE — replace these with your real data
     subject_example = {
@@ -197,9 +263,19 @@ if __name__ == "__main__":
         },
     ]
 
+    # Original method
+    print("=== ORIGINAL METHOD ===")
     topk_df, exps = rank_properties(subject_example, properties_example)
     print("=== TOP-3 ===")
     print(topk_df[["property_id", "score"]])
 
     print("\n=== LLM EXPLANATION PROMPT ===")
-    print(format_llm_explanation(subject_example, exps))
+    prompt = format_llm_explanation(subject_example, exps)
+    print(prompt)
+
+    # New method with LLM explanation
+    print("\n=== NEW METHOD WITH LLM EXPLANATION ===")
+    topk_df, human_explanation = explain_recommendations(
+        subject_example, properties_example)
+    print("\n=== HUMAN-READABLE EXPLANATION ===")
+    print(human_explanation)
